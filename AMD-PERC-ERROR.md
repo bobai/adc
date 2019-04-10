@@ -1,4 +1,4 @@
-# Provoking PERC H330 block device errors on a Dell AMD EPIC host
+# Provoking PERC H330 block device errors on a Dell AMD EPYC host
 This describes a method for provoking errors that leads to serious data corruption on block devices supported by the PERC H330 controller.
 
 ## Environment
@@ -6,7 +6,7 @@ This describes a method for provoking errors that leads to serious data corrupti
   - PERC H330
   - Dell THNSF8200CCSE 200Gb SATA 6Gbps MLC SFF SSD
 * OS: Ubuntu 18.04 LTS server
-* Kernel: 4.15.0-43-generic
+* Kernel: 4.15.0-43-generic to 4.15.0-47-generic and mainline 4.20.17
 
 ## Device layout
 

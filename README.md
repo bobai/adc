@@ -10,7 +10,7 @@ I am posting our findings and test tools here in the hope that they may help oth
   - PERC H330 controler with a
   - Dell THNSF8200CCSE 200Gb SATA 6Gbps MLC SFF SSD
 * OS: Ubuntu 18.04 LTS server
-* Kernel: 4.15.0-43-generic
+* Kernel: 4.15.0-43-generic to 4.15.0-47-generic and mainline 4.20.17
 
 # Symptoms
 A server may run stably for day or weeks. Then random programs consistently fail with "Segmentation fault". A closer inspection, which may be difficult to conduct, finds massive filesystem corruption, with changes to files that should not have been changed.
