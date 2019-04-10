@@ -31,7 +31,7 @@ We commonly observe the error as a failure to complete dynamic linking of binari
  Once observed, the corruption is usually severe enough to make further analysis impossible.
 
 # Test environment used to provoke data corruption
-This is a proven method of quickly provoking the and detecting the data corruption in our environment. 
+This is a proven method of quickly provoking the error and detecting the data corruption in our environment. 
 
 ## Detecting the corruption
 First we make checksums for all files in /usr/lib and /usr/bin
