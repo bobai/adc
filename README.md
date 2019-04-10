@@ -3,6 +3,8 @@ This page has been made to track an apparent hardware/driver incompatibility bet
 
 I am posting our findings and test tools here in the hope that they may help others encountering the same problems.
 
+[According to Ubuntu dcoumentation the PERC H330 controller is not currently suppoted](https://certification.ubuntu.com/hardware/201711-25946/) 
+
 # Environment
 * Dell EMC PowerEdge R7425 and R7415
   - PERC H330 controler with a
